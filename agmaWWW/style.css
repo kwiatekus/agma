@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+	font-family: 'Titillium Web', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*************************************
+************banner********************
+**************************************/
+
+.navbar-default {
+    background-color: #ffffff;
+    min-height: inherit;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.08);
+}
+.navbar-default .navbar-nav > li > a
+{
+	font-family: 'open sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: rgba(162, 164, 187, 0.47);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a:hover
+{
+	background-color: transparent;
+	color: #A2A4BB;
+}
+.navbar-default .navbar-nav > .active > a
+{
+	background-color: transparent;
+	color: #A2A4BB;
+}
+/*************************************
+************banner********************
+**************************************/
+.banner
+{
+	background: url('img/banner.jpg') no-repeat 0% 0% / 100% 100%;
+	min-height: 500px;
+	color: #ffffff;
+}
+.bg-color
+{
+	background-color: rgba(159, 173, 188, 0.76);
+	min-height: 500px;
+}
+.banner-text
+{
+	padding: 155px 0px 0px;
+}
+.banner-text h2
+{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: #ffffff;
+	padding-bottom: 8px;
+}
+.banner-text h3
+{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	padding-bottom: 15px;
+}
+.banner-btn
+{
+	background-color: #00BB9C;
+	color: #FFF;
+	padding: 8px 16px;
+	border-radius: 3px;
+	margin-top: 14px;
+	display: inline-block;
+	font-size: 14px;
+}
+/*************************************
+************banner********************
+**************************************/
+#intro
+{
+	background-color: #f2eded;
+}
+.section-padding
+{
+	padding: 60px 0px; 
+}
+.intro-text h3
+{
+	color: #4f6b83;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.intro-text p
+{
+	color: #79829f;
+	padding: 10px 200px;
+}
+.intro-btn
+{
+	color: #FFF;
+	background-color: #00BB9C;
+	font-size: 14px;
+	display: inline-block;
+	padding: 8px 50px;
+	margin-top: 10px;
+	border-radius: 3px;
+
+}
+/*************************************
+************banner********************
+**************************************/
+.about-info h3, .services-info h3
+{
+	color: #4f6b83;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.about-info
+{
+	margin-bottom: 30px;
+}
+.about-info p, .services-info p
+{
+	color: #79829f;
+	padding: 0px 100px 15px 0px;
+}
+.about-img
+{
+	position: relative;
+}
+.img
+{
+	border:1px solid rgba(204, 204, 204, 0.54);
+	top: -4px;
+}
+/*************************************
+************banner********************
+**************************************/
+#services
+{
+	background-color: #f2eded;
+}
+.services-info h3
+{
+	padding-right: 55px;
+}
+.services-img
+{
+	margin-top: 5px;
+	border-radius: 50%;
+}
+.services-img img
+{
+	border-radius: 50%;
+}
+/*************************************
+************banner********************
+**************************************/
+.sec-head h3
+{
+	color: #4f6b83;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.big-blog .img-section
+{
+	width: 100%;
+	background-color: #ccc;
+}
+.small-blog .img-section
+{
+	width: 100%;
+	background-color: #ccc;
+}
+.small-blog h4, .big-blog h4
+{
+	color: #4f6b83;
+	font-size: 20px;
+	padding: 10px 0px 20px;
+}
+.small-blog p, .big-blog p
+{
+	color: #79829f;
+	font-size: 16px;
+	padding: 10px 0px 20px;
+}
+/*************************************
+************banner********************
+**************************************/
+#textimonial
+{
+	background-color: #f2eded;
+}
+.textimonial-info blockquote
+{
+	padding: 0px 150px;
+	line-height: 1;
+	color: #79829f;
+}
+.textimonial-info blockquote i
+{
+	padding:0px 5px;
+}
+.textimonial-info h4
+{
+	padding: 10px 0px 5px;
+	color: #79829f;
+}
+.textimonial-info p
+{
+	color: #79829f;
+}
+/*************************************
+************banner********************
+**************************************/
+.username input,.email input
+{
+	width: 50%;
+	border:0px;
+	height: 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.comment textarea
+{
+	width: 50%;
+	height: 300px;
+	resize:none;
+	border:0px;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 10px 0px 0px 10px;
+}
+.username, .email, .comment
+{
+	border:1px solid rgba(79, 107, 131, 0.37);
+	width: 50%;
+	margin: 0 auto 30px;
+	
+}
+/*************************************
+************banner********************
+**************************************/
+.cont-button a
+{
+	width: 50%;
+	color: #FFF;
+	background-color: #00BB9C;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 0px;
+	text-transform: uppercase;
+}
+.cont-button a:hover
+{
+	background-color: rgba(0, 187, 156, 0.61);
+	text-decoration: none;
+}
+/*************************************
+************banner********************
+**************************************/
+.main-footer
+{
+	background-color: #293646;
+	padding: 15px 0px;
+}
+.main-footer p
+{
+	color: #fff;
+}
+.main-footer p a
+{
+	color: #00BB9C;	
+}
+/** media queries**/
+@media (min-width: 100px) and (max-width: 768px){
+	.intro-text p {
+    padding: 10px 0px;
+}
+.about-info p, .services-info p
+{
+	padding: 0px 0px 15px 0px;
+}
+.services-img {
+    margin-bottom: 15px;
+}
+.textimonial-info blockquote
+{
+	padding: 0px 20px;
+}
+.username, .email, .comment
+{
+	border:1px solid rgba(79, 107, 131, 0.37);
+	width: 80%;
+	margin: 0 auto 30px;
+	
+}
+}
