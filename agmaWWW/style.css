@@ -136,6 +136,14 @@ table {
 	font-size: 28px;
 	text-transform: uppercase;
 }
+
+.intro-text h4
+{
+	color: #4f6b83;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
 .intro-text p
 {
 	color: #79829f;
@@ -170,6 +178,23 @@ table {
 {
 	color: #79829f;
 	padding: 0px 100px 15px 0px;
+}
+
+.contact-info p
+{
+	color: #79829f;
+	padding: 0px 0px 15px 0px;
+}
+
+.about-info p.boldy
+{
+    font-size:21px;
+    color: #79829f;
+}
+
+.about-info ul li
+{
+	color: #79829f;
 }
 .about-img
 {
@@ -343,5 +368,13 @@ table {
 	width: 80%;
 	margin: 0 auto 30px;
 	
+}
+
+.brand-color {
+    color: #00BB9C !important;
+}
+
+.gray-text {
+    color: #79829f !important;
 }
 }
