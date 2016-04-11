@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1.2;
-	font-family: 'Titillium Web', sans-serif;
+    font-family: Constantia, "Palatino Linotype", Palatino, Georgia, serif; 
 }
 ol, ul {
 	list-style: none;
@@ -81,13 +81,13 @@ table {
 **************************************/
 .banner
 {
-	background: url('img/banner.jpg') no-repeat 0% 0% / 100% 100%;
+    background:url('img/AGMAlogo.png') no-repeat center center;
+	/*background: url('img/banner.jpg') no-repeat 0% 0% / 100% 100%;*/
 	min-height: 500px;
 	color: #ffffff;
 }
 .bg-color
 {
-	background-color: rgba(159, 173, 188, 0.76);
 	min-height: 500px;
 }
 .banner-text
