@@ -176,7 +176,7 @@ table {
 .about-info p, .services-info p
 {
 	color: #79829f;
-	padding: 0px 100px 15px 0px;
+	padding: 0px 40px 15px 0px;
 }
 
 .contact-info p
@@ -393,6 +393,14 @@ table {
 
 li {
     padding-bottom: 8px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
 }
 
               
